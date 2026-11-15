@@ -1,0 +1,42 @@
+[
+  {
+    "name": "hanime1",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": true,
+    "author": "misaka0721",
+    "lastUpdate": 1794723342834
+  },
+  {
+    "name": "hanimeone",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "misaka0721",
+    "lastUpdate": 1794723342834
+  },
+  {
+    "name": "hstream",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "misaka0721",
+    "lastUpdate": 1794723342834
+  },
+  {
+    "name": "kanav",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "misaka0721",
+    "lastUpdate": 1794723342834
+  },
+  {
+    "name": "oppaistream",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "misaka0721",
+    "lastUpdate": 1794723342834
+  }
+]

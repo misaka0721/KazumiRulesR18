@@ -1,0 +1,67 @@
+{
+  "api": "9",
+  "type": "anime",
+  "name": "kanav",
+  "version": "1.0",
+  "author": "misaka0721",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": true,
+  "userAgent": "",
+  "baseURL": "https://kanav.ad/",
+  "searchURL": "",
+  "searchList": "",
+  "searchName": "",
+  "searchResult": "",
+  "chapterRoads": "",
+  "chapterResult": "",
+  "referer": "https://kanav.ad/",
+  "searchMode": "api",
+  "chapterMode": "api",
+  "searchApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://kanav.ad/index.php/ajax/suggest",
+      "query": {
+        "mid": "1",
+        "wd": "@keyword"
+      }
+    },
+    "listPath": "$.list[*]",
+    "namePath": "$.name",
+    "sourcePath": "$.id"
+  },
+  "chapterApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://kanav.ad/index.php/ajax/suggest",
+      "query": {
+        "mid": "1",
+        "wd": "1"
+      }
+    },
+    "format": "nested",
+    "roadsPath": "",
+    "roadNamePath": "",
+    "episodesPath": "$.list[0]",
+    "episodeNamePath": "$._default",
+    "episodeUrlPath": "",
+    "episodePage": {
+      "url": "https://kanav.ad/index.php/vod/play/id/@source/sid/1/nid/1.html",
+      "query": {}
+    }
+  },
+  "antiCrawlerConfig": {
+    "enabled": false,
+    "captchaType": 1,
+    "captchaImage": "",
+    "captchaInput": "",
+    "captchaButton": "",
+    "captchaDetectType": 1,
+    "captchaDetectValue": "",
+    "captchaScript": ""
+  }
+}
