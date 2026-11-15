@@ -1,5 +1,21 @@
 [
   {
+    "name": "1hani",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "misaka0721",
+    "lastUpdate": 1794724825000
+  },
+  {
+    "name": "91dongman",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "misaka0721",
+    "lastUpdate": 1794724827000
+  },
+  {
     "name": "hanime1",
     "version": "1.0",
     "useNativePlayer": true,
